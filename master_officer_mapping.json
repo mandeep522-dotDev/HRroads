@@ -1,0 +1,194 @@
+{
+    "hq": [
+        {
+            "name": "Y.M. MEHRA",
+            "designation": "EIC (Roads) 2618121",
+            "tier": "Unknown",
+            "mobile": "96711-11066",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "VIKAS KUMAR",
+            "designation": "CE NCR 2618191",
+            "tier": "Unknown",
+            "mobile": "94161-76879",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "SANDEEP GOEL",
+            "designation": "CE (Roads-I) 2618141",
+            "tier": "Unknown",
+            "mobile": "94172-00394",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "HARPAL SINGH",
+            "designation": "CE (Nab./Roads-II) 2618196",
+            "tier": "Unknown",
+            "mobile": "94162-48121",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "VISHAL KUMAR SHARMA",
+            "designation": "CE (NH) 2618157",
+            "tier": "Unknown",
+            "mobile": "94661-61101",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "RAJESH AHUJA",
+            "designation": "CE (Elect/ IT) 2618177",
+            "tier": "Unknown",
+            "mobile": "98100-93550",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        {
+            "name": "ARUN KUMAR",
+            "designation": "CE (Mech) 2618181",
+            "tier": "Unknown",
+            "mobile": "93552-21504",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        }
+    ],
+    "circles": {},
+    "divisions": {
+        "PI": {
+            "name": "Sandeep Singh",
+            "designation": "EE(PI), Karnal",
+            "tier": "EE",
+            "mobile": "98760-09311",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        "PII": {
+            "name": "Raj kumar",
+            "designation": "EE(PII), Karnal",
+            "tier": "EE",
+            "mobile": "97290-63221",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        "P": {
+            "name": "Jatin Khurana",
+            "designation": "EE(P1), Hisar",
+            "tier": "EE",
+            "mobile": "98783-84499",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        "PIII": {
+            "name": "Gaurav Jain",
+            "designation": "EE(PIII), Hisar",
+            "tier": "EE",
+            "mobile": "85859-29110",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        "PMGSY": {
+            "name": "TARVEEN",
+            "designation": "SEHRAWAT EE (PMGSY) 2618108",
+            "tier": "Unknown",
+            "mobile": "90344-80050",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "",
+            "division": ""
+        },
+        "EE,ADB Narnaul": {
+            "name": "98962-33096     Sajjan Singh",
+            "designation": "EXECUTIVE_ENGINEER",
+            "tier": "",
+            "mobile": "94162-55482",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "REWARI  CIRCLE  (01274)",
+            "division": "EE,ADB Narnaul"
+        },
+        "EE, NH, Panchkula": {
+            "name": "Arun Singhmar",
+            "designation": "EXECUTIVE_ENGINEER",
+            "tier": "",
+            "mobile": "94663-99966",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "SONEPAT CIRCLE (0130)",
+            "division": "EE, NH, Panchkula"
+        },
+        "EE, CD, Gurugram": {
+            "name": "Sunil Kumar",
+            "designation": "EXECUTIVE_ENGINEER",
+            "tier": "",
+            "mobile": "94639-55573",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "N.H. CIRCLE JIND (01681)",
+            "division": "EE, CD, Gurugram"
+        },
+        "EE, Palwal": {
+            "name": "-----",
+            "designation": "EXECUTIVE_ENGINEER",
+            "tier": "",
+            "mobile": "94662-19169",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "GURUGRAM CIRCLE",
+            "division": "EE, Palwal"
+        },
+        "EE, Nuh   (01267)": {
+            "name": "Sajjan Singh",
+            "designation": "EXECUTIVE_ENGINEER",
+            "tier": "",
+            "mobile": "94162-55482",
+            "email": "",
+            "phone": "",
+            "department": "PWD (B&R)",
+            "circle": "BHIWANI CIRCLE",
+            "division": "EE, Nuh   (01267)"
+        }
+    }
+}
