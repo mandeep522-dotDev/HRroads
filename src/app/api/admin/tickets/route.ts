@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server';
 import { Pool } from 'pg';
 
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || 'postgresql://dummy:dummy@localhost/dummy',
-  max: 10,
-});
-
 export async function GET(req: Request) {
   try {
+    const pool = new Pool({
+      connectionString: process.env.DATABASE_URL || 'postgresql://dummy:dummy@localhost/dummy',
+      max: 10,
+    });
+    
     const authHeader = req.headers.get('authorization');
     if (authHeader !== 'Bearer haryana_admin_2024') {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -29,6 +29,10 @@ export async function GET(req: Request) {
 
 export async function PATCH(req: Request) {
   try {
+    const pool = new Pool({
+      connectionString: process.env.DATABASE_URL || 'postgresql://dummy:dummy@localhost/dummy',
+      max: 10,
+    });
     const authHeader = req.headers.get('authorization');
     if (authHeader !== 'Bearer haryana_admin_2024') {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

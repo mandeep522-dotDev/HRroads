@@ -2,17 +2,16 @@ import { NextResponse } from 'next/server';
 import { Pool } from 'pg';
 import { createClient } from '@supabase/supabase-js';
 
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || 'postgresql://dummy:dummy@localhost/dummy',
-  max: 10,
-});
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://dummy.supabase.co';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'dummy';
-const supabase = createClient(supabaseUrl, supabaseKey);
-
 export async function POST(req: Request) {
   try {
+    const pool = new Pool({
+      connectionString: process.env.DATABASE_URL || 'postgresql://dummy:dummy@localhost/dummy',
+      max: 10,
+    });
+
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://dummy.supabase.co';
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'dummy';
+    const supabase = createClient(supabaseUrl, supabaseKey);
     const formData = await req.formData();
     const latitude = parseFloat(formData.get('latitude') as string);
     const longitude = parseFloat(formData.get('longitude') as string);
