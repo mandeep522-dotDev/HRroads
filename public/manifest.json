@@ -1,0 +1,22 @@
+{
+  "name": "Haryana Road Resolver",
+  "short_name": "Haryana Roads",
+  "description": "Report and track road issues across Haryana.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/icon.avif",
+      "sizes": "192x192",
+      "type": "image/avif",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.avif",
+      "sizes": "512x512",
+      "type": "image/avif"
+    }
+  ]
+}
