@@ -282,8 +282,11 @@ export default function Home() {
             <MapComponent 
               position={lat && lng ? [parseFloat(lat), parseFloat(lng)] : null} 
               onLocationSelect={(lat: number, lng: number) => {
-                setLat(lat.toFixed(6));
-                setLng(lng.toFixed(6));
+                const newLat = lat.toFixed(6);
+                const newLng = lng.toFixed(6);
+                setLat(newLat);
+                setLng(newLng);
+                handleResolveForCoords(newLat, newLng);
               }}
             />
             <div className="absolute top-4 right-4 z-[1000] bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-xs font-medium shadow-sm border border-gray-200 text-gray-600">
